@@ -1,0 +1,21 @@
+run_name: "steam_absa_model_v2"
+model_name_or_path: "models/steam_absa_model_v1_final"
+
+data_path: "data/process/steam_absa_v1.csv"
+
+# hyperparameters
+learning_rate: 0.000005     
+batch_size: 8                
+num_train_epochs: 50
+weight_decay: 0.01
+
+# strategy
+eval_strategy: "epoch"
+save_strategy: "epoch"
+logging_strategy: "epoch"
+
+save_total_limit: 2
+predict_with_generate: true
+load_best_model_at_end: true
+
+fp16: false                 

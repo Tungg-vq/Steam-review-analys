@@ -1,0 +1,11 @@
+
+models/
+checkpoint-*/
+
+data/
+*.csv
+
+__pycache__/
+*.pyc
+.vscode/
+.env

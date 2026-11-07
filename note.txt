@@ -1,0 +1,2 @@
+python src/train.py --config configs/t5_base_config.yaml
+python src/evaluate.py --model_dir models/steam_absa_model_v2_final --data data/process/steam_absa_v1.csv
