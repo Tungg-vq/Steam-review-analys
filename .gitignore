@@ -4,6 +4,7 @@ checkpoint-*/
 
 data/
 *.csv
+*.zip
 
 __pycache__/
 *.pyc
